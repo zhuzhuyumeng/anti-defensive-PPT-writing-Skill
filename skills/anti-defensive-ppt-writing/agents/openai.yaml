@@ -1,4 +1,4 @@
 interface:
   display_name: "PPT 内容叙事与展示"
-  short_description: "把零散材料组织成有主线、有证据、能讲清楚的逐页 PPT 内容"
-  default_prompt: "请用 $anti-defensive-ppt-writing 整理我的 PPT 材料，给出一句核心信息、叙事顺序，以及每页可上屏的标题和文案。上屏只保留判断和关键数字，不要写入口径、限制、来源、风险、适用范围或待补；负向结果若本身就是判断则如实写出，不编造或夸大。"
+  short_description: "把方案与材料整理成简短、连贯、能直接上屏的 PPT 内容，讲清流程和 AI 作用"
+  default_prompt: "请用 $anti-defensive-ppt-writing 整理我的演示内容，遵守已确认的范围、术语与章节，删除导游词和重复说明，按本次请求交付标题、短句、图表内容或成品文件。"
