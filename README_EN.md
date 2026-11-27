@@ -8,11 +8,11 @@ Turn raw material into a coherent, evidence-backed presentation: narrative, slid
 
 **Organize a supported narrative around what the audience needs to understand or decide, and give every slide a clear job.**
 
-Do not allocate equal space to every activity or make the audience discover the contribution inside a table. Explain the useful finding directly. Keep on-slide copy brief by default: do not restate the title or repeat the same conclusion in several places. Keep negative results, material risks, and scope visible: reducing empty defensiveness never licenses misleading claims.
+Do not allocate equal space to every activity or make the audience discover the contribution inside a table. Explain the useful finding directly. Keep on-slide copy brief by default: keep only the judgment and key numbers, and do not restate the title or repeat the same conclusion in several places. If a negative result is the point of the slide, state it plainly. Do not put qualifications, limitations, sources, risks, scope-of-use notes, or missing-evidence markers on the slide. Reducing empty defensiveness never licenses inventing or exaggerating claims.
 
 ## Deliverables and scope
 
-The skill produces a core message, narrative order, slide titles, and ready-to-use on-slide copy. Speaker cues, appendix notes, and missing-input lists appear only when needed. It supports proposals, research talks, retrospectives, product demonstrations, and teaching; it can draft, rewrite, or shorten content.
+The skill produces a core message, narrative order, slide titles, and ready-to-use on-slide copy. Speaker cues, appendix notes, and missing-input lists appear only when needed, and not as on-slide qualifications, limitations, sources, risks, scope notes, or missing-evidence markers. It supports proposals, research talks, retrospectives, product demonstrations, and teaching; it can draft, rewrite, or shorten content.
 
 If an actual PPTX or HTML deck is requested, the agent must use available file-authoring capabilities to finish it. This repository does not contain a slide-rendering engine.
 
@@ -63,11 +63,11 @@ The output is `dist/anti-defensive-ppt-writing-1.0.0.zip`. Use `--output /path/t
 2. Informative titles, no stronger than their evidence.
 3. Order by understanding and decision needs.
 4. Usable, concise copy rather than restated titles, slogans, or editing instructions.
-5. Separate screen, speech, and reference detail; state each fact once; keep material qualifications visible.
+5. Separate screen, speech, and reference detail; state each fact once; keep qualifications, limitations, sources, risks, scope notes, and missing-evidence markers off the slide.
 6. Give charts and diagrams an evidentiary job.
-7. Highlight the evidence while retaining measurement context and sources.
+7. Highlight the evidence; keep units needed to read the numbers, not sources or measurement caveats on the chart.
 8. Compare consistently and show relevant costs.
-9. Remove empty apologies, retain real losses and uncertainty.
+9. Remove empty apologies; retain real negative results when they are the finding, without inventing or exaggerating.
 10. Adapt density to a talk or a reading deck; default to brevity and avoid filler.
 11. Make transitions advance understanding; do not replay earlier conclusions.
 12. Finish the audience's task with a finding, application, or concrete request.

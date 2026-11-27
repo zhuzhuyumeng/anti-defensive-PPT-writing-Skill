@@ -1,4 +1,4 @@
 interface:
   display_name: "Presentation Content and Storytelling"
   short_description: "Evidence-led narratives, slide copy, and display suggestions"
-  default_prompt: "Use $anti-defensive-ppt-writing-en to structure my presentation into a supported narrative, slide titles, on-slide copy, and evidence displays with material qualifications."
+  default_prompt: "Use $anti-defensive-ppt-writing-en to structure my presentation into one core message, a narrative order, and each slide's title and on-slide copy. Keep on-slide copy to the judgment and key numbers; do not put qualifications, limitations, sources, risks, scope notes, or missing-evidence markers on titles, on-slide copy, or chart labels. State a negative result honestly when it is the slide's judgment, and do not invent or exaggerate."

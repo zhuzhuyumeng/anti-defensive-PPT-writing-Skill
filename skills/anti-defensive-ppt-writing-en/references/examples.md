@@ -11,14 +11,18 @@ Material: 12 staff interviews; an automatic classification tool; a single-depart
 Instead of background → interviews → development → features → results, consider:
 
 1. Recommend a two-department pilot to validate the handling-time benefit.
-2. Current evidence comes from 12 interviews and one department.
-3. Mean handling time in the pilot fell from 10 to 6 minutes.
-4. The wider pilot still needs human review for complex items.
-5. The next stage needs one part-time liaison in each department.
+2. Mean handling time in the pilot fell from 10 to 6 minutes.
+3. The next stage needs one part-time liaison in each department.
 
 These are illustrative slide roles, not a required slide count.
 
-Slide 3 can show two zero-based bars, in minutes per item, highlighting the four-minute reduction (40%). Keep the pilot scope and human-review condition visible. Mark missing measurement dates, sample sizes, case mix, and whether review time is included. A before/after observation does not establish causation or a 40% benefit in every department.
+Slide 2 can show two zero-based bars, in minutes per item, highlighting the four-minute reduction (40%). Keep on-slide copy to the judgment and key numbers; do not add qualifications, limitations, sources, scope notes, or missing-evidence markers.
+
+```text
+Title: In a single-department pilot, average handling time fell from 10 minutes to 6
+On-slide content:
+  10 min/case → 6 min/case (-40%)
+```
 
 ## 2. Keep title strength within the evidence
 
@@ -37,10 +41,9 @@ If the evidence supports only three functions, replace “Empowering an intellig
 Title: The system connects ticket submission, routing, and status tracking
 On-slide content:
   Submit ticket → Route ticket → Track status
-  Label each step with its actor; no invented savings or satisfaction figures
 ```
 
-If routing is planned rather than available, change the title accordingly and label that step “Planned” on screen, not only in notes.
+If routing is planned rather than available, change the title accordingly and label that step “Planned” on screen, rather than presenting it as a shipped capability.
 
 ## 4. Present real trade-offs
 
@@ -48,19 +51,19 @@ Same test set and hardware: A has 91% accuracy and 40 ms latency; B has 93% accu
 
 Title: “A meets the 50 ms latency limit with accuracy two percentage points below B.”
 
-Show both metrics and the threshold together. Do not claim comprehensive superiority or confuse percentage points with percent. If the application also requires 92% accuracy, neither option meets both requirements. If no cost or latency evidence exists, do not invent an accuracy-for-efficiency trade-off.
+Show both metrics and the threshold together. Do not claim comprehensive superiority or confuse percentage points with percent. If the application also requires 92% accuracy, state that neither option meets both requirements. If no cost or latency evidence exists, do not invent an accuracy-for-efficiency trade-off.
 
 ## 5. Required defense sections
 
-Keep a required sequence of background, method, results, limitations, and outlook. Improve the argument within it. If cross-domain generalization was not tested, say so; do not delete the limitations section. A nonsignificant result is not a significant improvement. Retain negative experiments required for the defense.
+Keep a required sequence of background, method, results, limitations, and outlook. Improve the argument within it. This is a user-specified section structure, not a reason to put limitations on every slide by default. A nonsignificant result is not a significant improvement. Retain negative experiments required for the defense.
 
-A question-response slide can follow: question → direct answer → evidence → scope. Do not evade counterevidence by repeating strengths.
+A question-response slide can follow: question → direct answer → evidence. Do not evade counterevidence by repeating strengths.
 
 ## 6. Topic only, no data
 
 Request: “An eight-slide AI customer-service cost proposal for management.”
 
-Draft eight editable slides: decision question, baseline cost definition, candidate tasks, handling flow, pilot design, measurement metrics, risks and human handoff, and resource request. Use explicit placeholders for unknowns. Do not invent a 50% cost reduction or customer stories.
+Draft eight editable slides: decision question, baseline cost, candidate tasks, handling flow, pilot design, measurement metrics, human handoff, and resource request. Do not invent a 50% cost reduction or customer stories.
 
 Example metric slide:
 
@@ -69,19 +72,19 @@ Title: The pilot will measure cost per service and human handoff rate
 On-slide content:
   Cost per service = total pilot service cost / completed services in that period
   Handoff rate = conversations transferred to staff / total conversations
-  Distinguish observed baselines from proposed targets
-  [Needed: baseline period, cost scope, sample size, target thresholds]
 ```
 
-## 7. Scope and density
+Note unknowns once in the draft; do not put “Needed” markers on the slide.
 
-A talk can move derivations into speaker cues while keeping material conditions visible. A reading deck needs enough background, chart explanation, and definitions to stand alone. Appendices provide detail, not a correction for misleading main slides.
+## 7. Density for talks and reading decks
+
+A talk can move derivations into speaker cues. Keep charts and on-slide copy to the judgment and key numbers; do not add qualifications, sources, or missing-evidence markers. A reading deck needs enough background, chart explanation, and definitions to stand alone, still without putting limitations, sources, or missing-evidence markers on the slide. Appendices provide detail, not a correction for misleading main slides.
 
 For a one-slide edit, preserve its role and avoid rewriting the whole deck. For a font-only request, do the formatting task without changing business claims.
 
 ## 8. Compress verbose on-slide copy
 
-The draft restates the title, adds empty evaluation, and buries the qualification in a paragraph:
+The draft restates the title, adds empty evaluation, and buries a qualification in a paragraph:
 
 ```text
 Title: In a single-department pilot, average handling time fell from 10 minutes to 6
@@ -98,8 +101,6 @@ Tighten it to:
 Title: In a single-department pilot, average handling time fell from 10 minutes to 6
 On-slide content:
   10 min/case → 6 min/case (-40%)
-  Single-department pilot; complex cases still need manual review
-  [Needed: period, sample size, whether review time is included]
 ```
 
-What was cut: sentences that repeat the title, evaluative filler, and reasoning that does not need to be on the slide. The judgment, numbers, and material qualification remain. Fictional example; not for publication.
+What was cut: sentences that repeat the title, evaluative filler, reasoning that does not need to be on the slide, and supplementary limitations or missing-evidence notes. The judgment and key numbers remain. Fictional example; not for publication.
