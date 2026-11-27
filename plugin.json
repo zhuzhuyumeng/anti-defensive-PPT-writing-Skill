@@ -39,7 +39,7 @@
         "defaultPrompt": [
           "把这些材料整理成面向管理层的 8 页 PPT 内容，按任务给出逐页标题、简短文案及必要的图表内容，保留已确认的范围与术语。",
           "Rewrite this presentation around a supported narrative. Provide slide titles, on-slide copy and evidence displays while retaining material qualifications.",
-          "帮我整理这套方案的主线与业务流程，删除导游词和重复说明，写清 AI 的输入、动作与结果，如实保留事实。"
+          "帮我把这套汇报从过程流水账改成清晰的决策主线，删除导游词和重复说明，如实保留负向结果，不编造或夸大。"
         ],
         "brandColor": "#163D47",
         "brandColorDark": "#92D1CC",
