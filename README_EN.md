@@ -8,11 +8,11 @@ Turn raw material into a coherent, evidence-backed presentation: narrative, slid
 
 **Organize a supported narrative around what the audience needs to understand or decide, and give every slide a clear job.**
 
-Do not allocate equal space to every activity or make the audience discover the contribution inside a table. Explain the useful finding directly. Keep negative results, material risks, and scope visible: reducing empty defensiveness never licenses misleading claims.
+Do not allocate equal space to every activity or make the audience discover the contribution inside a table. Explain the useful finding directly. Keep on-slide copy brief by default: do not restate the title or repeat the same conclusion in several places. Keep negative results, material risks, and scope visible: reducing empty defensiveness never licenses misleading claims.
 
 ## Deliverables and scope
 
-The skill produces a core message, narrative order, slide titles, on-slide copy, evidence display suggestions, and optional speaker cues. It supports proposals, research talks, retrospectives, product demonstrations, and teaching; it can draft, rewrite, or shorten content.
+The skill produces a core message, narrative order, slide titles, and ready-to-use on-slide copy. Speaker cues, appendix notes, and missing-input lists appear only when needed. It supports proposals, research talks, retrospectives, product demonstrations, and teaching; it can draft, rewrite, or shorten content.
 
 If an actual PPTX or HTML deck is requested, the agent must use available file-authoring capabilities to finish it. This repository does not contain a slide-rendering engine.
 
@@ -34,7 +34,7 @@ You can install either language independently. Other `SKILL.md`-compatible tools
 ```text
 Use $anti-defensive-ppt-writing-en to turn this material into an eight-slide
 management proposal. The decision is whether to approve a wider pilot.
-Provide titles, on-slide copy, display suggestions, and material qualifications.
+Provide ready-to-use titles and on-slide copy for each slide.
 [Material]
 ```
 
@@ -62,14 +62,14 @@ The output is `dist/anti-defensive-ppt-writing-1.0.0.zip`. Use `--output /path/t
 1. One main audience question per slide.
 2. Informative titles, no stronger than their evidence.
 3. Order by understanding and decision needs.
-4. Usable copy rather than slogans or editing instructions.
-5. Separate screen, speech, and reference detail; keep material qualifications visible.
+4. Usable, concise copy rather than restated titles, slogans, or editing instructions.
+5. Separate screen, speech, and reference detail; state each fact once; keep material qualifications visible.
 6. Give charts and diagrams an evidentiary job.
 7. Highlight the evidence while retaining measurement context and sources.
 8. Compare consistently and show relevant costs.
 9. Remove empty apologies, retain real losses and uncertainty.
-10. Adapt density to a talk or a reading deck.
-11. Make transitions advance understanding.
+10. Adapt density to a talk or a reading deck; default to brevity and avoid filler.
+11. Make transitions advance understanding; do not replay earlier conclusions.
 12. Finish the audience's task with a finding, application, or concrete request.
 
 See the [full workflow](skills/anti-defensive-ppt-writing-en/SKILL.md) and [examples](skills/anti-defensive-ppt-writing-en/references/examples.md). All example metrics are fictional and must be replaced before publication.

@@ -1,6 +1,6 @@
 # Presentation examples
 
-Read when calibrating titles, evidence displays, or special cases. All numbers and projects below are **fictional examples, not for publication**. Replace them with supplied evidence.
+Read when calibrating titles, evidence displays, or special cases. Default delivery is only the title and on-slide copy; display or evidence notes below are for calibration, not required fields on every slide. All numbers and projects below are **fictional examples, not for publication**. Replace them with supplied evidence.
 
 ## 1. From activity log to decision narrative
 
@@ -35,9 +35,9 @@ If the evidence supports only three functions, replace “Empowering an intellig
 
 ```text
 Title: The system connects ticket submission, routing, and status tracking
-On-slide content: Submit ticket → Route ticket → Track status
-Display: Three steps, each labeled with its responsible actor.
-Evidence: Product specification; no invented savings or satisfaction figures.
+On-slide content:
+  Submit ticket → Route ticket → Track status
+  Label each step with its actor; no invented savings or satisfaction figures
 ```
 
 If routing is planned rather than available, change the title accordingly and label that step “Planned” on screen, not only in notes.
@@ -69,8 +69,8 @@ Title: The pilot will measure cost per service and human handoff rate
 On-slide content:
   Cost per service = total pilot service cost / completed services in that period
   Handoff rate = conversations transferred to staff / total conversations
+  Distinguish observed baselines from proposed targets
   [Needed: baseline period, cost scope, sample size, target thresholds]
-Display: Two metric definitions; distinguish observed baselines from proposed targets.
 ```
 
 ## 7. Scope and density
@@ -78,3 +78,28 @@ Display: Two metric definitions; distinguish observed baselines from proposed ta
 A talk can move derivations into speaker cues while keeping material conditions visible. A reading deck needs enough background, chart explanation, and definitions to stand alone. Appendices provide detail, not a correction for misleading main slides.
 
 For a one-slide edit, preserve its role and avoid rewriting the whole deck. For a font-only request, do the formatting task without changing business claims.
+
+## 8. Compress verbose on-slide copy
+
+The draft restates the title, adds empty evaluation, and buries the qualification in a paragraph:
+
+```text
+Title: In a single-department pilot, average handling time fell from 10 minutes to 6
+On-slide content:
+  We ran a pilot in one department and optimized the process, which clearly improved average handling time.
+  Before the pilot, each case took 10 minutes on average; after the pilot, it fell to 6 minutes.
+  That is a 4-minute reduction, or about 40%, which fully demonstrates the value of the pilot.
+  Of course, complex cases still need manual review, so this cannot yet be rolled out to every department.
+```
+
+Tighten it to:
+
+```text
+Title: In a single-department pilot, average handling time fell from 10 minutes to 6
+On-slide content:
+  10 min/case → 6 min/case (-40%)
+  Single-department pilot; complex cases still need manual review
+  [Needed: period, sample size, whether review time is included]
+```
+
+What was cut: sentences that repeat the title, evaluative filler, and reasoning that does not need to be on the slide. The judgment, numbers, and material qualification remain. Fictional example; not for publication.
