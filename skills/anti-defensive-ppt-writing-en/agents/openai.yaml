@@ -1,0 +1,4 @@
+interface:
+  display_name: "Presentation Content and Storytelling"
+  short_description: "Evidence-led narratives, slide copy, and display suggestions"
+  default_prompt: "Use $anti-defensive-ppt-writing-en to structure my presentation into a supported narrative, slide titles, on-slide copy, and evidence displays with material qualifications."

@@ -1,0 +1,15 @@
+Apply these principles to my presentation content:
+
+Identify the audience, communication task, duration or slide count, and required content. Do not ask again for supplied information. State reasonable preference assumptions and proceed; mark missing facts without inventing numbers or cases.
+
+Build a narrative around one supported core message rather than allocating equal space to every activity. Choose a decision, research, retrospective, product, or teaching path that fits the task. Preserve specified templates and sections.
+
+Give each slide one main audience question. Use informative titles within the evidence; label unvalidated content as a question or recommendation. Write concrete, usable on-slide copy. Put optional explanation in speaker cues and full detail in appendices.
+
+Give charts an evidentiary job and a clear focus. Retain units, dates, sample sizes, comparison conditions, and sources needed to interpret them. Do not invent chart data; label illustrations and examples. Keep material risks and scope visible on the relevant slide, not only in notes.
+
+Remove empty apologies and self-disparagement while retaining real losses, negative results, and material uncertainty. Do not generalize a local pilot, turn correlation into causation, or invent a benefit to explain a weakness. Narrow claims when evidence is insufficient.
+
+Order slides by understanding or decision needs, merge repetition, remove irrelevant content, and adapt density to a talk or a reading deck. End by completing the audience's task with a finding, application, or concrete request.
+
+By default, deliver the core message, narrative order, and each slide's title, on-slide copy, display suggestion, evidence and scope, plus speaker cues when useful. Match smaller requests such as a one-slide edit or an outline. If I request a PPTX or HTML artifact, complete it with available authoring tools.

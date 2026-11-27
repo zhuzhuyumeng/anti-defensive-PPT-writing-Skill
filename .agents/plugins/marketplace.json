@@ -1,0 +1,20 @@
+{
+  "name": "zhuzhuyumeng-presentations",
+  "interface": {
+    "displayName": "zhuzhuyumeng Presentations"
+  },
+  "plugins": [
+    {
+      "name": "anti-defensive-ppt-writing",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

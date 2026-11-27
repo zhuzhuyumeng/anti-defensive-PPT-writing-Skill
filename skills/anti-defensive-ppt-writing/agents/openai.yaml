@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT 内容叙事与展示"
+  short_description: "把零散材料组织成有主线、有证据、能讲清楚的逐页 PPT 内容"
+  default_prompt: "请用 $anti-defensive-ppt-writing 整理我的 PPT 材料，给出叙事主线、逐页标题、上屏文案与展示建议，保留影响判断的事实和边界。"

@@ -1,0 +1,54 @@
+{
+  "name": "anti-defensive-ppt-writing",
+  "version": "1.0.0",
+  "description": "Chinese and English skills for evidence-led presentation storytelling and slide content.",
+  "author": {
+    "name": "zhuzhuyumeng",
+    "url": "https://github.com/zhuzhuyumeng"
+  },
+  "homepage": "https://github.com/zhuzhuyumeng/anti-defensive-PPT-writing-Skill",
+  "repository": "https://github.com/zhuzhuyumeng/anti-defensive-PPT-writing-Skill",
+  "license": "MIT",
+  "keywords": [
+    "presentation",
+    "ppt",
+    "slide-writing",
+    "storytelling",
+    "anti-defensive-writing",
+    "chinese",
+    "english"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Anti-Defensive PPT Writing",
+    "shortDescription": "Evidence-led presentation content",
+    "longDescription": "Turn raw material into a coherent presentation narrative, informative slide titles, usable on-slide copy, evidence display suggestions and speaker cues. Includes Chinese and English skills. Preserve material risks, negative results, measurement context and user constraints. File authoring uses the host environment; this package contains instructions only, without a slide renderer, MCP server, login or telemetry.",
+    "developerName": "zhuzhuyumeng",
+    "category": "Productivity",
+    "capabilities": [
+      "Presentation storytelling",
+      "Slide content editing",
+      "Chinese and English writing"
+    ],
+    "websiteURL": "https://github.com/zhuzhuyumeng/anti-defensive-PPT-writing-Skill",
+    "supportURL": "https://github.com/zhuzhuyumeng/anti-defensive-PPT-writing-Skill/issues",
+    "privacyPolicyURL": "https://github.com/zhuzhuyumeng/anti-defensive-PPT-writing-Skill/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/zhuzhuyumeng/anti-defensive-PPT-writing-Skill/blob/main/LICENSE",
+    "defaultPrompt": [
+      "把这些材料整理成面向管理层的 8 页 PPT 内容，给出逐页标题、上屏文案、展示建议和证据边界。",
+      "Rewrite this presentation around a supported narrative. Provide slide titles, on-slide copy and evidence displays while retaining material qualifications.",
+      "帮我把这套汇报从过程流水账改成清晰的决策主线，保留真实的负向结果与风险。"
+    ],
+    "brandColor": "#163D47",
+    "brandColorDark": "#92D1CC",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  },
+  "extensions": {
+    "com.openai": {
+      "publication": {
+        "release_notes": "Initial PPT adaptation with Chinese and English skills, worked examples, quick prompts and complete resource packaging."
+      }
+    }
+  }
+}
